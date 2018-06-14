@@ -19,6 +19,8 @@ class Database() {
                 transaction.commit()
             }
         }
+        transactions = ArrayList()
+        currentTransaction = null
     }
 
     fun rollback() {

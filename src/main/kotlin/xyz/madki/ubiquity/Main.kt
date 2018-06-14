@@ -23,6 +23,9 @@ fun main(args: Array<String>) {
 
     db.commit()
     db.printDb()
+
+    db.delete("1")
+    db.printDb()
 }
 
 
